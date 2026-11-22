@@ -5,9 +5,9 @@ import android.content.Context
 import android.content.res.Resources
 import android.graphics.Color
 import android.graphics.Typeface
-import android.support.constraint.ConstraintHelper
-import android.support.constraint.ConstraintLayout
-import android.support.constraint.Guideline
+import androidx.constraintlayout.widget.ConstraintHelper
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.constraintlayout.widget.Guideline
 
 import android.text.Editable
 import android.util.TypedValue

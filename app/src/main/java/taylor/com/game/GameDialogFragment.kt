@@ -1,7 +1,7 @@
 package cn.neoclub.uki.home.game
 
 import android.os.Bundle
-import android.support.constraint.ConstraintLayout
+import androidx.constraintlayout.widget.ConstraintLayout
 import android.util.Log
 import android.view.*
 import android.widget.LinearLayout

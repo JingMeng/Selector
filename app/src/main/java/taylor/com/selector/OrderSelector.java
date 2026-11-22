@@ -60,11 +60,11 @@ public class OrderSelector extends Selector {
 
     @Override
     public void onObtainAttrs(TypedArray typedArray) {
-        text = typedArray.getString(R.styleable.Selector_text);
-        iconResId = typedArray.getResourceId(R.styleable.Selector_img, 0);
-        indicatorResId = typedArray.getResourceId(R.styleable.Selector_indicator, 0);
-        textColor = typedArray.getColor(R.styleable.Selector_text_color, Color.parseColor("#FF222222"));
-        textSize = typedArray.getInteger(R.styleable.Selector_text_size, 15);
+        text = typedArray.getString(taylor.com.selector2.R.styleable.Selector_text);
+        iconResId = typedArray.getResourceId(taylor.com.selector2.R.styleable.Selector_img, 0);
+        indicatorResId = typedArray.getResourceId(taylor.com.selector2.R.styleable.Selector_indicator, 0);
+        textColor = typedArray.getColor(taylor.com.selector2.R.styleable.Selector_text_color, Color.parseColor("#FF222222"));
+        textSize = typedArray.getInteger(taylor.com.selector2.R.styleable.Selector_text_size, 15);
     }
 
     @Override
